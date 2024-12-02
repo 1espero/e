@@ -47,6 +47,13 @@ margin: 20px auto; /* Nafasi juu na chini, maandishi katikati */
     margin: 10px 0;
 }
 
+/* Ficha .contact-info kwa watumiaji wa kompyuta */
+@media only screen and (min-width: 769px) {
+    .contact-info {
+        display: none; /* Ficha kwa watumiaji wa kompyuta */
+    }
+}
+
 .fees-section ul {
     list-style-type: none; /* Remove default list styling */
     padding: 0; /* Remove padding */
